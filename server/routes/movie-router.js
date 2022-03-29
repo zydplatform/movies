@@ -11,3 +11,4 @@ router.get('/movie/:id', MovieCtrl.getMovieById)
 router.get('/movies', MovieCtrl.getMovies)
 
 module.exports = router
+    "id": "6239c834b56a235688560d50",

@@ -5,7 +5,7 @@ const db = require('./db')
 const movieRouter = require('./routes/movie-router')
 
 const app = express()
-const apiPort = 3000
+const apiPort = 8000
 
 db.on('error', console.error.bind(console, 'MongoDB Connection Error:'))
 
